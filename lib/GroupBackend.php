@@ -98,7 +98,7 @@ class GroupBackend extends ABackend implements ICountUsersBackend, IGroupDetails
 
 	public function getGroupDetails(string $gid): array {
 		if ($gid === $this->groupName) {
-			return ['displayName' => $this->l10n->t('Everyone')];
+			return ['displayName' => $this->l10n->t('everyone')];
 		} else {
 			return [];
 		}
