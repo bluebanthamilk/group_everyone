@@ -2,17 +2,17 @@
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
 	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
 	<id>group_everyone</id>
-	<name>Everyone Group</name>
-	<summary>Adds a virtual "Everyone" group</summary>
+	<name>everyone group</name>
+	<summary>Adds a virtual "everyone" group</summary>
 	<description>
-		Adds a virtual "Everyone" group.
+		Adds a virtual "everyone" group.
 	</description>
 
 	<version>0.1.17</version>
 	<licence>agpl</licence>
 	<author>Robin Appelman</author>
 
-	<namespace>GroupEveryone</namespace>
+	<namespace>Groupeveryone</namespace>
 
 	<types>
 		<authentication/>
